@@ -6,13 +6,14 @@
 
 You have imported the dataset. But before you go ahead and analyse, you first have to check the quality of the data. Otherwise you are at risk of making the wrong assumptions from your results and that can lead to negative consequences in your decision making. One of the most common data cleaning processes is to check for missing values, and estimate whether or not those have to replaced. 
 
-**Instructions:**
-Use is.null() to check if there is any missing data across the dataset.
-Use fillna() to fill the missing data with the correct value.
-Use mean() to calculate the mean of an object.
-Use groupby() to group two or more columns together based on their relationship. For example, if you have a column Age and a column Year of Graduation, you might want to group these two to see how many students have graduated in the same year.
+#### Instructions:
+  * Use is.null() to check if there is any missing data across the dataset.
+  * Use fillna() to fill the missing data with the correct value.
+  * Use mean() to calculate the mean of an object.
+  * Use groupby() to group two or more columns together based on their relationship. For example, if you have a column Age and a column Year of Graduation, you might want to group these two to see how many students have graduated in the same year.
 
-**Let’s practice:**
+#### **Let’s practice:
+
 If the dataset is called df, type the code that will show you how many missing values are there:
 ```python
 data.isnull()
